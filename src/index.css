@@ -93,10 +93,7 @@ p{
 background: white;
 transition: .2s;
 }
-@media screen and (max-width: 1050px) {
-  .skills ul{
-  }
-}
+
 .projects-header{
   text-align: center;
   padding-left: 8rem;
