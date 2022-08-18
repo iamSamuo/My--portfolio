@@ -53,7 +53,7 @@ const Projects = () => {
             To fetch specific movies, i consumed the TMDB API using axios to
             make HTTP fetch request to the API.
           </p>
-          <a href="sammy-netflixclone.netlify.app">
+          <a href="https://sammy-netflixclone.netlify.app/">
             View Project
           </a>
         </div>
