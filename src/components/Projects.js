@@ -3,6 +3,7 @@ import cocktails from "../Projects/cocktails.png";
 import hotelmenu from "../Projects/hotel-menu.png";
 import mindgame from "../Projects/mindgame.png";
 import netflixclone from "../Projects/netflix-clone.png";
+import linkedin from "../Projects/LinkedInClone1.png";
 
 const Projects = () => {
   return (
@@ -36,6 +37,22 @@ const Projects = () => {
         </div>
 
         <div className="item">
+          <img src={linkedin} alt="linkedin" />
+          <h1 className="project-p-h1">LinkedIn Clone</h1>
+          <p className="project-p-h1">
+            To perfect my ReactJs skills, i decided to develope a LinkedIn
+            clone. I managed to utilise different concepts in React for
+            example,React Hooks, Components and JSX. During the development, i
+            learnt how to integrate the app with firebase as the backend. Among
+            the technologies used in this build are: ReactJs, Redux, Firebase
+            and Material UI for different icons used in the app.
+          </p>
+          <a href="https://linkedin-clone-3527d.firebaseapp.com/">
+            View Project
+          </a>
+        </div>
+
+        <div className="item">
           <img src={hotelmenu} alt="hotelmenu" />
           <h1 className="project-p-h1">React Hotel Menu</h1>
           <p className="project-p-h1">
@@ -53,9 +70,7 @@ const Projects = () => {
             To fetch specific movies, i consumed the TMDB API using axios to
             make HTTP fetch request to the API.
           </p>
-          <a href="https://sammy-netflixclone.netlify.app/">
-            View Project
-          </a>
+          <a href="https://sammy-netflixclone.netlify.app/">View Project</a>
         </div>
       </div>
     </section>
