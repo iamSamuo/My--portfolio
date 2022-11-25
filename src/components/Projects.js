@@ -17,6 +17,16 @@ const Projects = () => {
       <div className="project-items">
         <div className="item">
           <img src={linkedin} alt="linkedin" />
+          <h1 className="project-p-h1">Gmail-Clone</h1>
+          <p className="project-p-h1">
+            I build a representation of Gmail using ReactJs, Firebase and Redux
+            for state management.
+          </p>
+          <a href="https://g-mail-clone-769ea.web.app/">View Project</a>
+        </div>
+
+        <div className="item">
+          <img src={linkedin} alt="linkedin" />
           <h1 className="project-p-h1">LinkedIn Clone</h1>
           <p className="project-p-h1">
             To perfect my ReactJs skills, i decided to develope a LinkedIn
@@ -41,38 +51,39 @@ const Projects = () => {
           </p>
           <a href="https://sammy-netflixclone.netlify.app/">View Project</a>
         </div>
-      </div>
 
-      <div className="item">
-        <img src={cocktails} alt="cocktail" />
-        <h1 className="project-p-h1">Cocktail Joint</h1>
-        <p className="project-p-h1">
-          Cocktail joint is a project made with ReactJs. This site uses an
-          external API to fetch data. Users are able to search different types
-          of cocktails through the search bar, as well as get detailed
-          information on cocktails ingredients
-        </p>
-        <a href="https://cocktail-joint.netlify.app">View Project</a>
-      </div>
+        <div className="item">
+          <img src={cocktails} alt="cocktail" />
+          <h1 className="project-p-h1">Cocktail Joint</h1>
+          <p className="project-p-h1">
+            Cocktail joint is a project made with ReactJs. This site uses an
+            external API to fetch data. Users are able to search different types
+            of cocktails through the search bar, as well as get detailed
+            information on cocktails ingredients
+          </p>
+          <a href="https://cocktail-joint.netlify.app">View Project</a>
+        </div>
 
-      <div className="item">
-        <img src={mindgame} alt="mindgame" />
-        <h1 className="project-p-h1">Mind Game</h1>
-        <p className="project-p-h1">
-          This is a JavaScript paractice project, that i built while learning
-          JavaScript programming language
-        </p>
-        <a href="https://samuocodes-mindgame.netlify.app">View Project</a>
-      </div>
+        <div className="item">
+          <img src={mindgame} alt="mindgame" />
+          <h1 className="project-p-h1">Mind Game</h1>
+          <p className="project-p-h1">
+            This is a JavaScript paractice project, that i built while learning
+            JavaScript programming language
+          </p>
+          <a href="https://samuocodes-mindgame.netlify.app">View Project</a>
+        </div>
 
-      <div className="item">
-        <img src={hotelmenu} alt="hotelmenu" />
-        <h1 className="project-p-h1">React Hotel Menu</h1>
-        <p className="project-p-h1">
-          A Hotel Menu project that allows users to search for different meals
-          to order, depending on time,that is; braekfast,lunch as well as shakes
-        </p>
-        <a href="https://samuocodes-hotel-menu.netlify.app">View Project</a>
+        <div className="item">
+          <img src={hotelmenu} alt="hotelmenu" />
+          <h1 className="project-p-h1">React Hotel Menu</h1>
+          <p className="project-p-h1">
+            A Hotel Menu project that allows users to search for different meals
+            to order, depending on time,that is; braekfast,lunch as well as
+            shakes
+          </p>
+          <a href="https://samuocodes-hotel-menu.netlify.app">View Project</a>
+        </div>
       </div>
     </section>
   );
