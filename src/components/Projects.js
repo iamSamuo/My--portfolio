@@ -4,7 +4,7 @@ import hotelmenu from "../Projects/hotel-menu.png";
 import mindgame from "../Projects/mindgame.png";
 import netflixclone from "../Projects/netflix-clone.png";
 import linkedin from "../Projects/LinkedInClone1.png";
-
+import gmailclone from "../Projects/gmailclone.png"
 const Projects = () => {
   return (
     <section className="projects">
@@ -16,10 +16,10 @@ const Projects = () => {
 
       <div className="project-items">
         <div className="item">
-          <img src={linkedin} alt="linkedin" />
+          <img src={gmailclone} alt="linkedin" />
           <h1 className="project-p-h1">Gmail-Clone</h1>
           <p className="project-p-h1">
-            I build a representation of Gmail using ReactJs, Firebase and Redux
+            I built simple representation of Gmail using ReactJs, Firebase and Redux
             for state management.
           </p>
           <a href="https://g-mail-clone-769ea.web.app/">View Project</a>
