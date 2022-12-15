@@ -107,7 +107,6 @@ transition: .2s;
   align-items: center;
 }
 .projects-header-p{
-  padding-top: 10px;
  text-align: justify;
  padding-left: 3rem;
 }
@@ -132,6 +131,7 @@ transition: .2s;
 }
 
 .project-p-h1{
+  padding:10px;
   text-align: justify;
   width:100%;
 }
@@ -140,7 +140,7 @@ transition: .2s;
   border-bottom: 2px solid orange;
   border-radius: .5rem;
   text-align: center;
-  padding:5px ;
+  padding:10px ;
   color: black;
 }
 .item a:hover{
