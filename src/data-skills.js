@@ -8,8 +8,20 @@ const skills = [
     skill1: "Reactjs",
   },
   {
-    id: 3,
-    skill1: "HTML5",
+    id: 6,
+    skill1: "Redux",
+  },
+  {
+    id: 7,
+    skill1: "NodeJs",
+  },
+  {
+    id: 8,
+    skill1: "Firebase",
+  },
+  {
+    id: 9,
+    skill1: "Material UI",
   },
   {
     id: 4,
