@@ -6,6 +6,7 @@ const Skills = () => {
   return (
     <div className="skills">
       <h2>Technical Skills.</h2>
+      <br />
 
       {skills.map((skill) => {
         const { id, skill1 } = skill;
