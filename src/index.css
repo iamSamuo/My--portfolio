@@ -126,10 +126,7 @@ transition: .2s;
   border-radius: 15px;
 
 }
-.item img:hover{
- border: 3px solid orange;
- transition: 1s;
-}
+
 .project-p-h1{
   text-align: justify;
   width:100%;
